@@ -33,12 +33,10 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   ##get the value of solve
   inverse<-x$getsolve()
-  ##decide if the value of solve is empty.If it's not empty,return the inverse directly.
   if<-(!is.null(inverse)){
     message("getting cached data")
     return(inverse)
   }
-  ##If it's empty,assign the matrix to data
   data<-x$get()
   ##set the inverse matrix to variable "inverse"
   x$setsolve(data)
