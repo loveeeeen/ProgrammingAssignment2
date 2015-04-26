@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-##create a list of the  4 functions: "set,get,setsolve,getsolve"
+##The first function"makeCacheMatrix" creates a list of 4 functions: "set,get,setsolve,getsolve".
+##And the second function caches the inverse of a matrix.
 
 ## Write a short comment describing this function
 
